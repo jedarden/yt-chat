@@ -1,0 +1,142 @@
+{
+  "layer": "LS6",
+  "timestamp": "2025-05-17T01:52:09Z",
+  "aggregate_scores": {
+    "overall": 89.2,
+    "complexity": 85.0,
+    "coverage": 91.0,
+    "performance": 88.0,
+    "correctness": 90.0,
+    "security": 92.0
+  },
+  "delta": {
+    "overall": null,
+    "complexity": null,
+    "coverage": null,
+    "performance": null,
+    "correctness": null,
+    "security": null
+  },
+  "thresholds": {
+    "epsilon": 3.0,
+    "complexity_max": 15,
+    "coverage_min": 80,
+    "performance_target": 85,
+    "note": "Default thresholds used; previous layer scores unavailable."
+  },
+  "decision": "proceed_to_code",
+  "detailed_metrics": {
+    "frontend/src/__tests__/XSS.test.js": {
+      "id": "LS6_1",
+      "complexity": {
+        "cyclomatic": 7,
+        "cognitive": 6,
+        "maintainability_index": 82
+      },
+      "coverage": {
+        "estimated_line": 98,
+        "estimated_branch": 95,
+        "testability_score": 95
+      },
+      "performance": {
+        "algorithm_efficiency": 90,
+        "resource_usage": 95,
+        "scalability": 90
+      },
+      "correctness": {
+        "syntax_validity": 100,
+        "logic_consistency": 95,
+        "edge_case_handling": 95
+      },
+      "security": {
+        "vulnerability_score": 98,
+        "input_validation": 95,
+        "secure_coding_practices": 95
+      }
+    },
+    "frontend/src/utils/escapeHtml.js": {
+      "id": "LS6_2",
+      "complexity": {
+        "cyclomatic": 2,
+        "cognitive": 2,
+        "maintainability_index": 95
+      },
+      "coverage": {
+        "estimated_line": 100,
+        "estimated_branch": 100,
+        "testability_score": 100
+      },
+      "performance": {
+        "algorithm_efficiency": 98,
+        "resource_usage": 99,
+        "scalability": 99
+      },
+      "correctness": {
+        "syntax_validity": 100,
+        "logic_consistency": 100,
+        "edge_case_handling": 95
+      },
+      "security": {
+        "vulnerability_score": 100,
+        "input_validation": 100,
+        "secure_coding_practices": 100
+      }
+    },
+    "backend/tests/security.test.js": {
+      "id": "LS6_3",
+      "complexity": {
+        "cyclomatic": 6,
+        "cognitive": 5,
+        "maintainability_index": 80
+      },
+      "coverage": {
+        "estimated_line": 90,
+        "estimated_branch": 85,
+        "testability_score": 85
+      },
+      "performance": {
+        "algorithm_efficiency": 85,
+        "resource_usage": 90,
+        "scalability": 85
+      },
+      "correctness": {
+        "syntax_validity": 100,
+        "logic_consistency": 90,
+        "edge_case_handling": 85
+      },
+      "security": {
+        "vulnerability_score": 90,
+        "input_validation": 90,
+        "secure_coding_practices": 90
+      }
+    },
+    "ci_enforcement.test.js": {
+      "id": "LS6_4",
+      "complexity": {
+        "cyclomatic": 3,
+        "cognitive": 3,
+        "maintainability_index": 85
+      },
+      "coverage": {
+        "estimated_line": 90,
+        "estimated_branch": 80,
+        "testability_score": 85
+      },
+      "performance": {
+        "algorithm_efficiency": 90,
+        "resource_usage": 95,
+        "scalability": 90
+      },
+      "correctness": {
+        "syntax_validity": 100,
+        "logic_consistency": 90,
+        "edge_case_handling": 80
+      },
+      "security": {
+        "vulnerability_score": 90,
+        "input_validation": 90,
+        "secure_coding_practices": 90
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+*.roo/
+*/node_modules/*
+.env
